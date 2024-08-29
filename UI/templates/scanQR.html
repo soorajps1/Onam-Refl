@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Scanner</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5-qrcode/2.3.4/html5-qrcode.min.js"
+            integrity="sha512-k/KAe4Yff9EUdYI5/IAHlwUswqeipP+Cp5qnrsUjTPCgl51La2/JhyyjNciztD7mWNKLSXci48m7cctATKfLlQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"></script>
+    <style>
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full viewport height for better centering */
+            margin: 0;
+        }
+        #reader {
+            width: 600px;
+        }
+        #result {
+            text-align: center;
+            font-size: 1.5rem;
+            margin-top: 20px;
+        }
+        #retry {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div id="reader"></div>
+        <div id="result"></div>
+        <button id="retry" style="display:none;" onclick="startScanning()">Scan Another QR Code</button>
+    </main>
+    <script>
+        let scanner;
+        let hasScanned = false;
+
+        function startScanning() {
+
+            document.getElementById('result').innerHTML = '';
+            document.getElementById('retry').style.display = 'none';
+            hasScanned = false; // Reset the flag for retry
+
+
+            const readerDiv = document.createElement('div');
+            readerDiv.id = 'reader';
+            document.querySelector('main').insertBefore(readerDiv, document.getElementById('result'));
+
+            scanner = new Html5QrcodeScanner('reader', {
+                qrbox: {
+                    width: 250,
+                    height: 250,
+                },
+                fps: 20,
+            });
+
+            scanner.render(success, error);
+
+
+            setTimeout(() => {
+                if (scanner && !hasScanned) {
+                    scanner.clear();
+                    document.getElementById('reader').remove();
+                    document.getElementById('result').innerHTML = `
+                        <h2>Scan Timed Out</h2>
+                        <p>No QR code detected. Please try again.</p>
+                    `;
+                    document.getElementById('retry').style.display = 'block';
+                }
+            }, 8000);
+        }
+
+        function success(result) {
+            if (!hasScanned) {
+                hasScanned = true;
+                if (scanner) {
+                    scanner.clear();
+                    document.getElementById('reader').remove();
+                }
+
+<!--                document.getElementById('result').innerHTML = `-->
+<!--                    <h2>Success!</h2>-->
+<!--                    <p><a href="${result}">${result}</a></p>-->
+                `;
+                alert("QR Code Scanned Successfully!");
+                document.getElementById('retry').style.display = 'block'; // Show the retry button
+
+                fetch('/scan-result', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ qr_code: result })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Server response:', data);
+                    <h2>Registered Successfully!</h2>
+                    <p><a href="${result}">${result}</a></p>
+                })
+                .catch(error => {
+                    console.error("Error sending data to the server:", error);
+                });
+            }
+        }
+
+        function error(err) {
+            console.log('QR Code scan error:', err);
+
+        }
+        window.onload = startScanning;
+    </script>
+</body>
+</html>

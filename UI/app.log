@@ -1,0 +1,65 @@
+2024-08-29 17:44:41,748 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-29 17:44:41,750 - INFO -  * Restarting with stat
+2024-08-29 17:44:42,269 - WARNING -  * Debugger is active!
+2024-08-29 17:44:42,271 - INFO -  * Debugger PIN: 176-531-296
+2024-08-29 17:44:56,704 - INFO - Scanned QR Code: 2K24WJs
+2024-08-29 17:44:57,389 - INFO - user details{'_id': ObjectId('66d04c313373f329dd9e2b89'), 'unique_value': '2K24WJs', 'ID': '7', 'name': 'Vinod N', 'generated_time': '2024-08-29T15:53:40.669393', 'mail': 'vinod@reflectionsinfos.com', 'attendance': True, 'entry_time': datetime.datetime(2024, 8, 29, 17, 43, 17, 628000)}
+2024-08-29 17:44:57,391 - INFO - 127.0.0.1 - - [29/Aug/2024 17:44:57] "POST /scan-result HTTP/1.1" 200 -
+2024-08-29 17:45:47,340 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-29 17:45:47,342 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-29 17:45:47,343 - INFO -  * Restarting with stat
+2024-08-29 17:45:47,837 - WARNING -  * Debugger is active!
+2024-08-29 17:45:47,840 - INFO -  * Debugger PIN: 176-531-296
+2024-08-29 17:45:57,348 - INFO - Scanned QR Code: 2K24WJs
+2024-08-29 17:45:57,953 - INFO - user details{'_id': ObjectId('66d04c313373f329dd9e2b89'), 'unique_value': '2K24WJs', 'ID': '7', 'name': 'Vinod N', 'generated_time': '2024-08-29T15:53:40.669393', 'mail': 'vinod@reflectionsinfos.com', 'attendance': True, 'entry_time': datetime.datetime(2024, 8, 29, 17, 43, 17, 628000)}
+2024-08-29 17:45:57,954 - INFO - 127.0.0.1 - - [29/Aug/2024 17:45:57] "POST /scan-result HTTP/1.1" 200 -
+2024-08-29 17:49:09,622 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-29 17:49:09,623 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-29 17:49:09,633 - INFO -  * Restarting with stat
+2024-08-29 17:51:02,521 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-29 17:51:02,521 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-29 17:51:02,523 - INFO -  * Restarting with stat
+2024-08-29 17:51:03,036 - WARNING -  * Debugger is active!
+2024-08-29 17:51:03,039 - INFO -  * Debugger PIN: 176-531-296
+2024-08-29 17:51:05,395 - INFO - Scanned QR Code: 2K24WJs
+2024-08-29 17:51:06,020 - INFO - user details{'_id': ObjectId('66d04c313373f329dd9e2b89'), 'unique_value': '2K24WJs', 'ID': '7', 'name': 'Vinod N', 'generated_time': '2024-08-29T15:53:40.669393', 'mail': 'vinod@reflectionsinfos.com', 'attendance': True, 'entry_time': datetime.datetime(2024, 8, 29, 17, 43, 17, 628000)}
+2024-08-29 17:51:06,022 - INFO - 127.0.0.1 - - [29/Aug/2024 17:51:06] "POST /scan-result HTTP/1.1" 200 -
+2024-08-29 17:52:38,631 - INFO - Scanned QR Code: 2K24WJs
+2024-08-29 17:52:38,775 - INFO - user details{'_id': ObjectId('66d04c313373f329dd9e2b89'), 'unique_value': '2K24WJs', 'ID': '7', 'name': 'Vinod N', 'generated_time': '2024-08-29T15:53:40.669393', 'mail': 'vinod@reflectionsinfos.com', 'attendance': True, 'entry_time': datetime.datetime(2024, 8, 29, 17, 43, 17, 628000)}
+2024-08-29 17:52:38,777 - INFO - 127.0.0.1 - - [29/Aug/2024 17:52:38] "POST /scan-result HTTP/1.1" 200 -
+2024-08-29 17:54:25,075 - INFO -  * Detected change in 'C:\\Users\\bornd\\PycharmProjects\\QR_TICKET_MANAGEMENT\\UI\\app.py', reloading
+2024-08-29 17:54:25,580 - INFO -  * Restarting with stat
+2024-08-29 17:54:26,288 - WARNING -  * Debugger is active!
+2024-08-29 17:54:26,291 - INFO -  * Debugger PIN: 176-531-296
+2024-08-29 17:54:53,657 - INFO - Scanned QR Code: 2K24506
+2024-08-29 17:54:54,532 - INFO - Scanned QR Code: 2K24506 added to database with ID: UpdateResult({'n': 0, 'electionId': ObjectId('7fffffff00000000000002e2'), 'opTime': {'ts': Timestamp(1724934294, 6), 't': 738}, 'nModified': 0, 'ok': 1.0, '$clusterTime': {'clusterTime': Timestamp(1724934294, 6), 'signature': {'hash': b'f\xa6\x0b\x1d\xa9\xd0w\xf4]0:&\xd5W\xefH\xb7\x05\xdf\xcd', 'keyId': 7365404716869615634}}, 'operationTime': Timestamp(1724934294, 6), 'updatedExisting': False}, acknowledged=True)
+2024-08-29 17:54:54,629 - INFO - None
+2024-08-29 17:54:54,632 - INFO - 127.0.0.1 - - [29/Aug/2024 17:54:54] "POST /scan-result HTTP/1.1" 200 -
+2024-08-29 17:55:46,960 - INFO - Scanned QR Code: 2K245O6
+2024-08-29 17:55:47,045 - INFO - user details{'_id': ObjectId('66d04c313373f329dd9e2b6f'), 'unique_value': '2K245O6', 'ID': '107', 'name': 'Mohamed Haseel', 'generated_time': '2024-08-29T15:53:35.535478', 'mail': 'mohamed.haseel@reflectionsinfos.com', 'attendance': False, 'entry_time': None}
+2024-08-29 17:55:47,141 - INFO - Scanned QR Code: 2K245O6 added to database with ID: UpdateResult({'n': 1, 'electionId': ObjectId('7fffffff00000000000002e2'), 'opTime': {'ts': Timestamp(1724934346, 31), 't': 738}, 'nModified': 1, 'ok': 1.0, '$clusterTime': {'clusterTime': Timestamp(1724934346, 31), 'signature': {'hash': b'\xa4\xff\x02\x85\xe1)u\xe8\xc0\x89\x97\xe8\xd8c\xaa\x0b\x8ft=\xab', 'keyId': 7365404716869615634}}, 'operationTime': Timestamp(1724934346, 31), 'updatedExisting': True}, acknowledged=True)
+2024-08-29 17:55:47,231 - INFO - 127.0.0.1 - - [29/Aug/2024 17:55:47] "[35m[1mPOST /scan-result HTTP/1.1[0m" 201 -
+2024-08-29 17:59:23,715 - INFO - Scanned QR Code: 2K24506
+2024-08-29 17:59:23,948 - INFO - Scanned QR Code: 2K24506 added to database with ID: UpdateResult({'n': 0, 'electionId': ObjectId('7fffffff00000000000002e2'), 'opTime': {'ts': Timestamp(1724934563, 20), 't': 738}, 'nModified': 0, 'ok': 1.0, '$clusterTime': {'clusterTime': Timestamp(1724934563, 20), 'signature': {'hash': b'\xbf1]\x896t\xd2\xfa\xbd\xd0g\xd8\x03\x16b{\xe3R\x84s', 'keyId': 7365404716869615634}}, 'operationTime': Timestamp(1724934563, 20), 'updatedExisting': False}, acknowledged=True)
+2024-08-29 17:59:24,047 - INFO - None
+2024-08-29 17:59:24,048 - INFO - 127.0.0.1 - - [29/Aug/2024 17:59:24] "POST /scan-result HTTP/1.1" 200 -
+2024-08-29 18:00:54,393 - INFO - Scanned QR Code: 2K2401D
+2024-08-29 18:00:54,488 - INFO - user details{'_id': ObjectId('66d04c313373f329dd9e2b2e'), 'unique_value': '2K2401D', 'ID': '623', 'name': 'Rahul P', 'generated_time': '2024-08-29T15:53:22.434547', 'mail': 'rahul.p@reflectionsinfos.com', 'attendance': False, 'entry_time': None}
+2024-08-29 18:00:54,595 - INFO - Scanned QR Code: 2K2401D added to database with ID: UpdateResult({'n': 1, 'electionId': ObjectId('7fffffff00000000000002e2'), 'opTime': {'ts': Timestamp(1724934654, 7), 't': 738}, 'nModified': 1, 'ok': 1.0, '$clusterTime': {'clusterTime': Timestamp(1724934654, 7), 'signature': {'hash': b"\x96P\x02\x05\x93\xbb\xb8\xd5\xfe\x06\x0ca\x98\xc5\xd7\xdat\xc9\xdd'", 'keyId': 7365404716869615634}}, 'operationTime': Timestamp(1724934654, 7), 'updatedExisting': True}, acknowledged=True)
+2024-08-29 18:00:54,685 - INFO - 127.0.0.1 - - [29/Aug/2024 18:00:54] "[35m[1mPOST /scan-result HTTP/1.1[0m" 201 -
+2024-08-29 18:01:49,499 - INFO - Scanned QR Code: 2K248l3
+2024-08-29 18:01:49,668 - INFO - user details{'_id': ObjectId('66d04c313373f329dd9e2b6d'), 'unique_value': '2K248l3', 'ID': '115', 'name': 'Cejoy Satheesh', 'generated_time': '2024-08-29T15:53:35.138727', 'mail': 'cejoy.satheesh@reflectionsinfos.com', 'attendance': False, 'entry_time': None}
+2024-08-29 18:01:49,790 - INFO - Scanned QR Code: 2K248l3 added to database with ID: UpdateResult({'n': 1, 'electionId': ObjectId('7fffffff00000000000002e2'), 'opTime': {'ts': Timestamp(1724934709, 17), 't': 738}, 'nModified': 1, 'ok': 1.0, '$clusterTime': {'clusterTime': Timestamp(1724934709, 17), 'signature': {'hash': b'\xd7\xf1r\xc1\xad*\xc0p\xf8\xb5\x7f0QF,\xf4V\xc8Z\xfb', 'keyId': 7365404716869615634}}, 'operationTime': Timestamp(1724934709, 17), 'updatedExisting': True}, acknowledged=True)
+2024-08-29 18:01:49,888 - INFO - 127.0.0.1 - - [29/Aug/2024 18:01:49] "[35m[1mPOST /scan-result HTTP/1.1[0m" 201 -
+2024-08-29 18:02:24,408 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-29 18:02:24,408 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-29 18:02:24,410 - INFO -  * Restarting with stat
+2024-08-29 18:02:24,936 - WARNING -  * Debugger is active!
+2024-08-29 18:02:24,939 - INFO -  * Debugger PIN: 176-531-296
+2024-08-29 18:02:43,912 - INFO - Scanned QR Code: 2K24fHv
+2024-08-29 18:02:44,522 - INFO - user details{'_id': ObjectId('66d04c313373f329dd9e2b6b'), 'unique_value': '2K24fHv', 'ID': '173', 'name': 'Arun Das M K', 'generated_time': '2024-08-29T15:53:34.736411', 'mail': 'arun.das@reflectionsinfos.com', 'attendance': False, 'entry_time': None}
+2024-08-29 18:02:44,730 - INFO - Scanned QR Code: 2K24fHv added to database with ID: UpdateResult({'n': 1, 'electionId': ObjectId('7fffffff00000000000002e2'), 'opTime': {'ts': Timestamp(1724934764, 17), 't': 738}, 'nModified': 1, 'ok': 1.0, '$clusterTime': {'clusterTime': Timestamp(1724934764, 17), 'signature': {'hash': b'\xa7\x0b\xbcRd\x8eT~w{\xdd\x1f\x8d\xeaP\x1d\xc6X \xc8', 'keyId': 7365404716869615634}}, 'operationTime': Timestamp(1724934764, 17), 'updatedExisting': True}, acknowledged=True)
